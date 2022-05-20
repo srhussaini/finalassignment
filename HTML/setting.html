@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <script src="https://kit.fontawesome.com/e7853be31b.js" crossorigin="anonymous"></script>
+  <title>Weight Tracker</title>
+</head>
+<body>
+  <!--main container for the app-->
+  <div class="container">
+    
+      <header>
+        <h1>Setting</h1>
+      </header>
+      <div class="box">
+        <div class="box2">
+          <details>
+            <summary id="sh-goalweight">Goal Weight:  </summary>
+            <p>
+              <label for="goalweight">Add Goal Weight in lbs:</label>
+          <input type="text" id="g-weight" name="goalweight" ><br> <br>
+          <button onclick="addGoalWeight()">Add</button>
+          <input type="reset" value="Cancel" class="cancel">
+            </p>
+          </details>
+          <details>
+            <summary class="age-gender"> <div id="sh-age">Age: </div>  & <div id="sh-gender">Gender:  </div> </summary>
+            <p>
+              <label for="age">Add Your Age:</label>
+          <input type="text" name="age" id="add-age"><br> <br>
+          <button onclick="addAge()">Add</button>
+          <input type="reset" value="Cancel" class="cancel"><br><br><br>
+          <label for="age">Select your Gender</label><br><br>
+  <input type="checkbox" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br> <br>
+            <input type="checkbox" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br> <br>
+            <button onclick="selGender()">Select</button>
+            </p>
+          </details>
+          <details>
+            <summary>Privacy Policy</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, quibusdam esse, incidunt ea nostrum voluptatibus deleniti laboriosam ex saepe quam, labore dolor laborum? Provident quidem maxime ut praesentium recusandae dolor sit quaerat hic esse non commodi, adipisci perspiciatis repellat!
+            </p>
+          </details>
+
+</div>       
+
+<footer>
+        <div class="nav-links">
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house"></i></a>Home</li>
+          <li><a href="bmi.html"><i class="fa-solid fa-children"></i></a>BMI</li>
+          <li><a href="addweight.html"><i class="fa-solid fa-plus"></i></a></li>
+          <li><a href="mood.html"><i class="fa-regular fa-face-smile"></i></a>Mood</li>        
+          <li><a href="setting.html"><i class="fa-solid fa-gear"></i></a>Setting</li>
+        </ul>
+      </div>
+    </footer> 
+    </div>
+  </div>
+  <!--main container ends-->
+
+  <script src="../js/scripts.js"></script>
+</body>
+</html>

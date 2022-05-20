@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <script src="https://kit.fontawesome.com/e7853be31b.js" crossorigin="anonymous"></script>
+  <title>Weight Tracker</title>
+</head>
+<body>
+  <!--main container for the app-->
+  <div class="container">
+    
+      <header>
+        <h1>Weight Tracker</h1>
+      </header>
+      <div class="box">
+      
+        <form name="AddWeight">
+          <div class="modal">
+          <h3>Add Your Weight</h3>
+          <label for="weight">Weight in lbs:</label>
+          <input type="text" name="weight" ><br> <br>
+          <label for="date">Date:</label>
+          <input type="date" name="date"><br> <br>
+          <button onclick="addWeight()">Add</button>
+          <input type="reset" value="Cancel" class="cancel">
+        </div>
+      </form><br><br>
+      <div id="weight-table">
+        <h3>History</h3>
+        <table>
+          <tr>
+            <td id="wgt">Weight</td>
+            <td id="wgt-date">Date</td>
+          </tr>
+        </table>
+        <table id="history">
+          
+        </table>
+      </div>
+      
+      <footer>
+        <div class="nav-links">
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house"></i></a>Home</li>
+          <li><a href="bmi.html"><i class="fa-solid fa-children"></i></a>BMI</li>
+          <li><a href="addweight.html"><i class="fa-solid fa-plus"></i></a></li>
+          <li><a href="mood.html"><i class="fa-regular fa-face-smile"></i></a>Mood</li>        
+          <li><a href="setting.html"><i class="fa-solid fa-gear"></i></a>Setting</li>
+        </ul>
+      </div>
+    </footer> 
+     
+    </div>
+  </div>
+  <!--main container ends-->
+
+  <script src="../js/scripts.js"></script>
+</body>
+</html>

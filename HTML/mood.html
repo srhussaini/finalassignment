@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <script src="https://kit.fontawesome.com/e7853be31b.js" crossorigin="anonymous"></script>
+  <title>Weight Tracker</title>
+</head>
+<body>
+  <!--main container for the app-->
+  <div class="container">
+    
+      <header>
+        <h1>Moods</h1>
+      </header>
+      <div class="box">
+        <div id="sh-mood">    
+        </div>
+      
+        
+        <div class="sel-mood">
+          <form name="SelectMood">
+            <h3>How Do You Feel Today?</h3> <br> <br>
+            <input type="checkbox" id="smile" name="mood" value="A perfect day is when the soul smiles!">
+            <label for="smile"> <i class="fa-regular fa-face-smile"></i>     Smile</label><br> <br>
+            <input type="checkbox" id="happy" name="mood" value="You glow differently when you are actually happy!">
+            <label for="happy"><i class="fa-regular fa-face-laugh-beam"></i>     Happy</label><br><br>
+            <input type="checkbox" id="love" name="mood" value="Love is a great beautifier!">
+            <label for="love"><i class="fa-solid fa-face-grin-hearts"></i>   Love</label><br><br>
+            <input type="checkbox" id="sad" name="mood" value="Trying to avoid sadness is trying to avoid life!">
+            <label for="sad"><i class="fa-regular fa-face-frown"></i>     Sad</label><br><br>
+            <input type="checkbox" id="anger" name="mood" value="Anger doesn't solve anything, but it can destroy everything!">
+            <label for="anger"><i class="fa-regular fa-face-angry"></i>     Angry</label><br><br>
+            <input type="checkbox" id="cry" name="mood" value="Tears come from the heart not from the brain!">
+            <label for="cry"><i class="fa-regular fa-face-sad-cry"></i>       Crying</label><br><br>
+            <input type="submit" id="sub-btn" value="Submit">
+          </form>
+      </div>
+      
+      <footer>
+        <div class="nav-links">
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house"></i></a>Home</li>
+          <li><a href="bmi.html"><i class="fa-solid fa-children"></i></a>BMI</li>
+          <li><a href="addweight.html"><i class="fa-solid fa-plus"></i></a></li>
+          <li><a href="mood.html"><i class="fa-regular fa-face-smile"></i></a>Mood</li>        
+          <li><a href="setting.html"><i class="fa-solid fa-gear"></i></a>Setting</li>
+        </ul>
+      </div>
+    </footer> 
+    </div>  
+  </div>
+  <!--main container ends-->
+
+  <script src="../js/scripts.js"></script>
+</body>
+</html>

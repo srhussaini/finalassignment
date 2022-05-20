@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <script src="https://kit.fontawesome.com/e7853be31b.js" crossorigin="anonymous"></script>
+  <title>Weight Tracker</title>
+</head>
+<body>
+  <!--main container for the app-->
+  <div class="container">
+    
+      <header>
+        <h1>BMI Calculator</h1>
+      </header>
+      <div class="box">
+        <div class="input">
+          <label for="weight">Weight in lbs:</label>
+          <input type="text" id="weight">
+        </div>
+        <div class="input">
+          <label for="height-inch">Height in Inches:</label>
+          <input type="text" id="height">
+        </div><br>
+        <button id="calculate" onclick="addBmi()">Calculate BMI</button>
+        <div class="result">
+          <h3>Your BMI is:</h3>
+          <div id="bmi-result">00</div>
+          <p id="input-weight">Weight - </p>
+          <p id="input-height">Height - </p><br><br>
+          <div class="bmi-chart">
+          <div class="underweight">Underweight <br> 16 - 18</div>
+          <div class="normalweight">Normalweight <br> 19 - 25</div>
+          <div class="overweight">Overweight <br> 26 - 40</div>
+        </div>
+
+        </div>
+      <footer>
+        <div class="nav-links">
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house"></i></a>Home</li>
+          <li><a href="bmi.html"><i class="fa-solid fa-children"></i></a>BMI</li>
+          <li><a href="addweight.html"><i class="fa-solid fa-plus"></i></a></li>
+          <li><a href="mood.html"><i class="fa-regular fa-face-smile"></i></a>Mood</li>        
+          <li><a href="setting.html"><i class="fa-solid fa-gear"></i></a>Setting</li>
+        </ul>
+      </div>
+    </footer> 
+    </div> 
+      
+
+    
+  </div>
+  <!--main container ends-->
+
+  <script src="../js/scripts.js"></script>
+</body>
+</html>
